@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #1e1e2f; /* Dark Blue */
+    --secondary-color: #3a3a55; /* Darker Blue */
+    --accent-color: #007bff; /* Bright Blue */
+    --text-color: #ffffff; /* White */
+    --background-color: #121212; /* Dark Gray */
+    --button-hover-color: #0056b3; /* Lighter Blue */
+    --error-color: #ff4d4d; /* Red for Errors */
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--button-hover-color);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--button-hover-color);
+  }
+  
+  input, textarea {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: var(--error-color);
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  

@@ -1,0 +1,25 @@
+.payment-page {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.payment-message {
+  margin-top: 15px;
+  color: var(--error-color);
+}

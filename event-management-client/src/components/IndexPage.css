@@ -1,0 +1,28 @@
+.index-page {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2, p {
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+}
